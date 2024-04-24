@@ -6,7 +6,9 @@ if not, installl nvm, then:
 goto .zsh profile:
 
 > open -e ~/.zshrc
-> Paste the below code
+
+Paste the below code
+
 > export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 > [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "\$NVM_DIR/bash_completion" # This loads nvm bash_completion
@@ -28,7 +30,8 @@ You should see node v16.16.0, then apply
 Check node version by
 
 > node -v
-> After all above is rectified use the following instructions, to download all the required libraries:
+
+After all above is rectified use the following instructions, to download all the required libraries:
 
 > npm install
 
